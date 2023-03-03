@@ -1,0 +1,25 @@
+{
+  "name": "tmptst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "heythere.js",
+  "scripts": {
+    "start": "node heythere.js",
+		"start:prd": "cross-env CONFIG_LEVEL=prd node heythere.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steven7969/tmptst.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steven7969/tmptst/issues"
+  },
+  "homepage": "https://github.com/steven7969/tmptst#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2"
+  }
+}
