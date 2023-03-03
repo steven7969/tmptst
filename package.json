@@ -5,7 +5,6 @@
   "main": "heythere.js",
   "scripts": {
     "start": "node heythere.js",
-		"start:prd": "cross-env CONFIG_LEVEL=prd node heythere.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
